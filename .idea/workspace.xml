@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4a916f-c66e-494a-a3f4-7430c54b0494" name="Default Changelist" comment="" />
+    <list default="true" id="ab4a916f-c66e-494a-a3f4-7430c54b0494" name="Default Changelist" comment="Rename parent folder to nested-elements">
+      <change afterPath="$PROJECT_DIR$/form-element/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/build-element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/form-element.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form-element/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nested-elements/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/form-element/form-element-app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/form-element/form-element.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/form-element/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nested-elements/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/src/js/form-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/src/js/text-field-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/text-field-element/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested-elements/text-field-element/text-field-element.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/parent/target/" />
     <ignored path="$PROJECT_DIR$/parent/main-component/target/" />
     <ignored path="$PROJECT_DIR$/parent/text-field-component/target/" />
@@ -19,93 +62,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-element/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="124" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-element/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form-element/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/build-elements.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nested-elements/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nested-elements/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="537">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/form-element/build-element.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/tslint.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -147,6 +173,14 @@
         <option value="$PROJECT_DIR$/parent/.gitignore" />
         <option value="$PROJECT_DIR$/parent/form-element/form-element-app/src/index.html" />
         <option value="$PROJECT_DIR$/nested-elements/pom.xml" />
+        <option value="$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.ts" />
+        <option value="$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.html" />
+        <option value="$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts" />
+        <option value="$PROJECT_DIR$/form-element/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/form-element/package.json" />
+        <option value="$PROJECT_DIR$/form-element/build-element.js" />
+        <option value="$PROJECT_DIR$/nested-elements/src/index.html" />
+        <option value="$PROJECT_DIR$/nested-elements/.gitignore" />
       </list>
     </option>
   </component>
@@ -177,23 +211,15 @@
           <expand>
             <path>
               <item name="nested-elements" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nested-elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nested-elements" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nested-elements" type="462c0819:PsiDirectoryNode" />
               <item name="form-element" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nested-elements" type="b2602c69:ProjectViewProjectNode" />
               <item name="nested-elements" type="462c0819:PsiDirectoryNode" />
-              <item name="form-element" type="462c0819:PsiDirectoryNode" />
-              <item name="form-element-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nested-elements" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nested-elements" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -204,12 +230,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576437423526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576438923483" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Programs/node/node-v10.14.1-linux-x64/bin/node" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/form-element/node_modules/tslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -218,7 +244,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/parent/main-component/main-component-app/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/form-element/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -242,7 +268,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RunManager" selected="npm.Angular CLI Server (form-element)">
+    <configuration name="E2E Tests (form-element)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/form-element/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/main-application-component/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -252,6 +286,16 @@
       <method v="2" />
     </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (form-element)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/form-element/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
@@ -296,12 +340,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11453000" />
+    <option name="totallyTimeSpent" value="12392000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,15 +363,16 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="npm" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32938644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32938644" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32938644" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -363,13 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/node_modules/@angular/core/core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="1433" column="21" selection-start-line="1433" selection-start-column="21" selection-end-line="1433" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/node_modules/@angular/core/core.d.ts" />
     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/text-field-element/text-field-element.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -384,23 +433,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.ts" />
     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/dist/text-field-component-app/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.html" />
     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/dist/elements/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -418,9 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/dist/elements/form-element.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/dist/elements/form-element.js" />
     <entry file="file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.html" />
     <entry file="file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.ts" />
@@ -428,48 +463,13 @@
     <entry file="file://$PROJECT_DIR$/nested-elements/src/js/form-element.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/build-elements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/build-elements.js" />
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/index.html" />
     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -486,17 +486,70 @@
     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/package.json">
+    <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/package.json" />
+    <entry file="file://$PROJECT_DIR$/nested-elements/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nested-elements/pom.xml">
+    <entry file="file://$PROJECT_DIR$/form-element/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="124" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-element/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-element/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-element/build-element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nested-elements/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
