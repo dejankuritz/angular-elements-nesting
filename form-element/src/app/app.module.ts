@@ -20,8 +20,10 @@ import {createCustomElement} from '@angular/elements';
 export class AppModule {
 
   constructor(injector: Injector) {
-    const custom = createCustomElement(FormElementComponent, {injector});
-    customElements.define('ne-form', custom);
+    if (!customElements.get('ne-form')) {
+      const element = createCustomElement(FormElementComponent, {injector});
+      customElements.define('ne-form', element);
+    }
   }
 
   ngDoBootstrap() {

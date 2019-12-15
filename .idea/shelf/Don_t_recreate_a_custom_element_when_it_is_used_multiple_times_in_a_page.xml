@@ -1,0 +1,4 @@
+<changelist name="Don't_recreate_a_custom_element_when_it_is_used_multiple_times_in_a_page" date="1576442294350" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Don't_recreate_a_custom_element_when_it_is_used_multiple_times_in_a_page/shelved.patch" />
+  <option name="DESCRIPTION" value="Don't recreate a custom element when it is used multiple times in a page" />
+</changelist>

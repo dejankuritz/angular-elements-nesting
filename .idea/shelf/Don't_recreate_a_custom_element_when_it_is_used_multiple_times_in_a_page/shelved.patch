@@ -1,0 +1,323 @@
+Index: nested-elements/src/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">\n    <title>Nested Angular Elements</title>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <base href=\"/\">\n\n    <!--Committed Javascript files are just symlinks-->\n    <script src=\"js/ne-form-element.js\"></script>\n    <script src=\"js/ne-text-field-element.js\"></script>\n</head>\n<body>\n\n<ne-form></ne-form>\n<ne-text-field></ne-text-field>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- nested-elements/src/index.html	(revision 9efad6e6f6d4f6ee92ae03853250699570e98c34)
++++ nested-elements/src/index.html	(date 1576442279000)
+@@ -12,6 +12,7 @@
+ </head>
+ <body>
+ 
++<ne-form></ne-form>
+ <ne-form></ne-form>
+ <ne-text-field></ne-text-field>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ab4a916f-c66e-494a-a3f4-7430c54b0494\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/form-element/custom-webpack.config.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/text-field-element/custom-webpack.config.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/form-element/angular.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/form-element/angular.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/form-element/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/form-element/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/form-element/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/form-element/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/text-field-element/angular.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/text-field-element/angular.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/text-field-element/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/text-field-element/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/text-field-element/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/text-field-element/package.json\" afterDir=\"false\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/parent/target/\" />\n    <ignored path=\"$PROJECT_DIR$/parent/main-component/target/\" />\n    <ignored path=\"$PROJECT_DIR$/parent/text-field-component/target/\" />\n    <ignored path=\"$PROJECT_DIR$/parent/form-element/target/\" />\n    <ignored path=\"$PROJECT_DIR$/parent/text-field-element/target/\" />\n    <ignored path=\"$PROJECT_DIR$/nested-elements/form-element/target/\" />\n    <ignored path=\"$PROJECT_DIR$/nested-elements/text-field-element/target/\" />\n    <ignored path=\"$PROJECT_DIR$/nested-elements/target/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/text-field-element/src/app/app.module.ts\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"195\">\n              <caret line=\"13\" column=\"5\" selection-start-line=\"13\" selection-start-column=\"5\" selection-end-line=\"13\" selection-end-column=\"5\" />\n              <folding>\n                <element signature=\"e#0#56#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/form-element/angular.json\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"420\">\n              <caret line=\"28\" column=\"25\" selection-start-line=\"28\" selection-start-column=\"25\" selection-end-line=\"34\" selection-end-column=\"13\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/form-element/custom-webpack.config.js\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"45\">\n              <caret line=\"3\" column=\"27\" selection-start-line=\"3\" selection-start-column=\"14\" selection-end-line=\"3\" selection-end-column=\"27\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/text-field-element/custom-webpack.config.js\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"45\">\n              <caret line=\"3\" column=\"25\" selection-start-line=\"3\" selection-start-column=\"25\" selection-end-line=\"3\" selection-end-column=\"25\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/text-field-element/angular.json\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"510\">\n              <caret line=\"34\" column=\"13\" selection-start-line=\"34\" selection-start-column=\"13\" selection-end-line=\"34\" selection-end-column=\"13\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/text-field-element/package.json\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"150\">\n              <caret line=\"10\" column=\"18\" selection-start-line=\"10\" selection-start-column=\"18\" selection-end-line=\"10\" selection-end-column=\"18\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/form-element/package.json\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"225\">\n              <caret line=\"15\" column=\"37\" lean-forward=\"true\" selection-start-line=\"15\" selection-start-column=\"37\" selection-end-line=\"15\" selection-end-column=\"37\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>app-root</find>\n      <find>form-element</find>\n      <find>builder</find>\n      <find>appname</find>\n      <find>webpack</find>\n      <find>options</find>\n    </findStrings>\n    <dirStrings>\n      <dir>$PROJECT_DIR$/parent/main-component/main-component-app</dir>\n      <dir>$PROJECT_DIR$/text-field-element</dir>\n    </dirStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.html\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/form-element/form-element.component.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/src/app/text-field-element/text-field-element.component.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/src/app/text-field-element/text-field-element.component.html\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/form-element/form-element.component.html\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/package.json\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/build-elements.js\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/package.json\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/build-elements.js\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/form-element-routing.module.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app-routing.module.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.module.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/src/index.html\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/src/app/app.module.ts\" />\n        <option value=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/index.html\" />\n        <option value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app/src/index.html\" />\n        <option value=\"$PROJECT_DIR$/parent/pom.xml\" />\n        <option value=\"$PROJECT_DIR$/parent/.gitignore\" />\n        <option value=\"$PROJECT_DIR$/parent/form-element/form-element-app/src/index.html\" />\n        <option value=\"$PROJECT_DIR$/nested-elements/pom.xml\" />\n        <option value=\"$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.ts\" />\n        <option value=\"$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.html\" />\n        <option value=\"$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts\" />\n        <option value=\"$PROJECT_DIR$/form-element/src/app/app.module.ts\" />\n        <option value=\"$PROJECT_DIR$/form-element/build-element.js\" />\n        <option value=\"$PROJECT_DIR$/nested-elements/.gitignore\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/src/app/app.module.ts\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/src/app/text-field/text-field-element.component.html\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/build-element.js\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/karma.conf.js\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/package-lock.json\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/e2e/src/app.e2e-spec.ts\" />\n        <option value=\"$PROJECT_DIR$/nested-elements/src/index.html\" />\n        <option value=\"$PROJECT_DIR$/form-element/custom-webpack.config.js\" />\n        <option value=\"$PROJECT_DIR$/form-element/angular.json\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/angular.json\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/custom-webpack.config.js\" />\n        <option value=\"$PROJECT_DIR$/text-field-element/package.json\" />\n        <option value=\"$PROJECT_DIR$/form-element/package.json\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"importingSettings\">\n      <MavenImportingSettings>\n        <option name=\"importAutomatically\" value=\"true\" />\n      </MavenImportingSettings>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"width\" value=\"959\" />\n    <option name=\"height\" value=\"1052\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"PackagesPane\" />\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"nested-elements\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"form-element\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"nested-elements\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"nested-elements\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"nested-elements\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"nested-elements\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"nested-elements\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"text-field-element\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"nested-elements\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"External Libraries\" type=\"cb654da1:ExternalLibrariesNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1576441997796\" />\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"1.8\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/text-field-element\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"$PROJECT_DIR$/form-element/node_modules/tslint\" />\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propVCSSupport.Mappings\" />\n    <property name=\"ts.external.directory.path\" value=\"$PROJECT_DIR$/text-field-element/node_modules/typescript/lib\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/parent/src/js\" />\n      <recent name=\"$PROJECT_DIR$/parent/main-component/main-component-app/src/app\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/text-field-element\" />\n      <recent name=\"$PROJECT_DIR$/parent/src\" />\n      <recent name=\"$PROJECT_DIR$/parent/main-component/main-component-app\" />\n    </key>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"npm.Angular CLI Server (form-element)\">\n    <configuration name=\"E2E Tests (form-element)\" type=\"JavaScriptTestRunnerProtractor\">\n      <config-file value=\"$PROJECT_DIR$/form-element/e2e/protractor.conf.js\" />\n      <node-interpreter value=\"project\" />\n      <protractor-options value=\"\" />\n      <envs />\n      <scope-kind value=\"ALL\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"E2E Tests\" type=\"JavaScriptTestRunnerProtractor\">\n      <config-file value=\"$PROJECT_DIR$/main-application-component/e2e/protractor.conf.js\" />\n      <node-interpreter value=\"project\" />\n      <protractor-options value=\"\" />\n      <envs />\n      <scope-kind value=\"ALL\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular Application\" type=\"JavascriptDebugType\" uri=\"http://localhost:4200\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular CLI Server (form-element)\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/form-element/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Angular CLI Server\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/main-application-component/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ab4a916f-c66e-494a-a3f4-7430c54b0494\" name=\"Default Changelist\" comment=\"\" />\n      <created>1576407586198</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1576407586198</updated>\n      <workItem from=\"1576407591610\" duration=\"11268000\" />\n      <workItem from=\"1576437451770\" duration=\"185000\" />\n      <workItem from=\"1576439586376\" duration=\"1086000\" />\n      <workItem from=\"1576440703859\" duration=\"1270000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Created 2 custom angularElements\">\n      <created>1576436428338</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1576436428338</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Rename parent folder to nested-elements\">\n      <created>1576437518540</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1576437518540</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Added text-field-element\">\n      <created>1576440669721</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1576440669721</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"14748000\" />\n  </component>\n  <component name=\"TodoView\">\n    <todo-panel id=\"selected-file\">\n      <is-autoscroll-to-source value=\"true\" />\n    </todo-panel>\n    <todo-panel id=\"all\">\n      <are-packages-shown value=\"true\" />\n      <is-autoscroll-to-source value=\"true\" />\n    </todo-panel>\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"0\" y=\"-1\" width=\"1920\" height=\"1053\" extended-state=\"6\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.25773746\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info id=\"Designer\" order=\"2\" />\n      <window_info id=\"Image Layers\" order=\"3\" />\n      <window_info id=\"Capture Tool\" order=\"4\" />\n      <window_info id=\"UI Designer\" order=\"5\" />\n      <window_info id=\"Favorites\" order=\"6\" side_tool=\"true\" />\n      <window_info id=\"npm\" order=\"7\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" weight=\"0.32938644\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" weight=\"0.32938644\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" weight=\"0.32938644\" />\n      <window_info anchor=\"bottom\" id=\"TypeScript\" order=\"7\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" visible=\"true\" weight=\"0.32938644\" />\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"9\" show_stripe_button=\"false\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Database Changes\" order=\"11\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"12\" />\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"13\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"right\" id=\"Maven\" order=\"3\" />\n      <window_info anchor=\"right\" id=\"Palette\" order=\"4\" />\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"5\" />\n      <window_info anchor=\"right\" id=\"Database\" order=\"6\" />\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"7\" />\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"8\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <ignored-roots>\n      <path value=\"$PROJECT_DIR$/main-application-component\" />\n      <path value=\"$PROJECT_DIR$/nested-elements/form-element/form-element-app\" />\n      <path value=\"$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app\" />\n      <path value=\"$PROJECT_DIR$/parent/form-element/form-element-app\" />\n      <path value=\"$PROJECT_DIR$/parent/main-component/form-element-app\" />\n      <path value=\"$PROJECT_DIR$/parent/main-component/main-component-app\" />\n      <path value=\"$PROJECT_DIR$/parent/text-field-component/text-field-component-app\" />\n      <path value=\"$PROJECT_DIR$/parent/text-field-component/text-field-element-app\" />\n      <path value=\"$PROJECT_DIR$/parent/text-field-element/text-field-element-app\" />\n    </ignored-roots>\n    <MESSAGE value=\"Created 2 custom angularElements\" />\n    <MESSAGE value=\"Rename parent folder to nested-elements\" />\n    <MESSAGE value=\"Added text-field-element\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added text-field-element\" />\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/pom.xml\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/pom.xml\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/node_modules/@angular/core/core.d.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/text-field-element/text-field-element.component.html\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/text-field-element/text-field-element.component.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/dist/text-field-component-app/index.html\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/form-element/form-element.component.html\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/dist/elements/styles.css\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/build-elements.js\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/package.json\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/dist/elements/form-element.js\" />\n    <entry file=\"file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.html\" />\n    <entry file=\"file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.spec.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app.component.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/parent/main-component/main-component-app/src/app/app-routing.module.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/src/js/form-element.js\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/app/app.module.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/build-elements.js\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/src/index.html\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/index.html\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/app.module.ts\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/tslint.json\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/package.json\" />\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/pom.xml\" />\n    <entry file=\"file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"30\">\n          <caret line=\"2\" column=\"12\" selection-start-line=\"2\" selection-start-column=\"12\" selection-end-line=\"2\" selection-end-column=\"12\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/src/app/form/form-element.component.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state>\n          <caret column=\"15\" selection-start-column=\"15\" selection-end-column=\"15\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/src/app/app.module.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"285\">\n          <caret line=\"23\" column=\"34\" selection-start-line=\"23\" selection-start-column=\"34\" selection-end-line=\"23\" selection-end-column=\"34\" />\n          <folding>\n            <element signature=\"e#0#56#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/build-element.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"240\">\n          <caret line=\"16\" column=\"4\" selection-start-line=\"16\" selection-start-column=\"4\" selection-end-line=\"16\" selection-end-column=\"4\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/.gitignore\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"537\">\n          <caret line=\"46\" column=\"5\" selection-start-line=\"46\" selection-start-column=\"5\" selection-end-line=\"46\" selection-end-column=\"5\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/node_modules/@angular/platform-browser/platform-browser.d.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"199\">\n          <caret line=\"43\" column=\"21\" selection-start-line=\"43\" selection-start-column=\"21\" selection-end-line=\"43\" selection-end-column=\"21\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/e2e/src/app.e2e-spec.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"180\">\n          <caret line=\"13\" column=\"5\" selection-start-line=\"13\" selection-start-column=\"5\" selection-end-line=\"13\" selection-end-column=\"5\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/node_modules/@angular/elements/elements.d.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/dist/elements/ne-text-field-element.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"120\">\n          <caret column=\"1485\" lean-forward=\"true\" selection-start-column=\"1485\" selection-end-column=\"1485\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/nested-elements/src/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"10\" column=\"15\" selection-start-line=\"10\" selection-start-column=\"15\" selection-end-line=\"10\" selection-end-column=\"15\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/src/app/text-field/text-field-element.component.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"75\">\n          <caret line=\"5\" column=\"2\" selection-start-line=\"5\" selection-start-column=\"2\" selection-end-line=\"5\" selection-end-column=\"2\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/src/app/text-field/text-field-element.component.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"15\">\n          <caret line=\"1\" selection-start-line=\"1\" selection-end-line=\"1\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/karma.conf.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"255\">\n          <caret line=\"18\" column=\"65\" selection-start-line=\"18\" selection-start-column=\"65\" selection-end-line=\"18\" selection-end-column=\"65\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/package-lock.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"15\">\n          <caret line=\"1\" column=\"21\" selection-start-line=\"1\" selection-start-column=\"21\" selection-end-line=\"1\" selection-end-column=\"21\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/.editorconfig\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/build-element.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"270\">\n          <caret line=\"18\" selection-start-line=\"18\" selection-end-line=\"18\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/src/app/app.module.ts\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"195\">\n          <caret line=\"13\" column=\"5\" selection-start-line=\"13\" selection-start-column=\"5\" selection-end-line=\"13\" selection-end-column=\"5\" />\n          <folding>\n            <element signature=\"e#0#56#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/dist/elements/ne-form-element.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"219\">\n          <caret line=\"1\" column=\"6396\" selection-start-line=\"1\" selection-start-column=\"6396\" selection-end-line=\"1\" selection-end-column=\"6396\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/dist/form-element/main-es2015.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"120\">\n          <caret column=\"1527\" lean-forward=\"true\" selection-start-column=\"1527\" selection-end-column=\"1527\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/dist/form-element/main-es5.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"75\">\n          <caret column=\"954\" selection-start-column=\"954\" selection-end-column=\"954\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/angular.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"420\">\n          <caret line=\"28\" column=\"25\" selection-start-line=\"28\" selection-start-column=\"25\" selection-end-line=\"34\" selection-end-column=\"13\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/angular.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"510\">\n          <caret line=\"34\" column=\"13\" selection-start-line=\"34\" selection-start-column=\"13\" selection-end-line=\"34\" selection-end-column=\"13\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/custom-webpack.config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"45\">\n          <caret line=\"3\" column=\"27\" selection-start-line=\"3\" selection-start-column=\"14\" selection-end-line=\"3\" selection-end-column=\"27\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/custom-webpack.config.js\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"45\">\n          <caret line=\"3\" column=\"25\" selection-start-line=\"3\" selection-start-column=\"25\" selection-end-line=\"3\" selection-end-column=\"25\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/text-field-element/package.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"10\" column=\"18\" selection-start-line=\"10\" selection-start-column=\"18\" selection-end-line=\"10\" selection-end-column=\"18\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/form-element/package.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"225\">\n          <caret line=\"15\" column=\"37\" lean-forward=\"true\" selection-start-line=\"15\" selection-start-column=\"37\" selection-end-line=\"15\" selection-end-column=\"37\" />\n        </state>\n      </provider>\n    </entry>\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ArtifactsStructureConfigurable.UI\">\n        <settings>\n          <artifact-editor />\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"FacetStructureConfigurable.UI\">\n        <settings>\n          <last-edited>No facets are configured</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"GlobalLibrariesConfigurable.UI\">\n        <settings>\n          <last-edited>material</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"JdkListConfigurable.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ModuleStructureConfigurable.UI\">\n        <settings>\n          <last-edited>text-field-element</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n                <option value=\"0.6\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 9efad6e6f6d4f6ee92ae03853250699570e98c34)
++++ .idea/workspace.xml	(date 1576442288000)
+@@ -1,16 +1,11 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="ab4a916f-c66e-494a-a3f4-7430c54b0494" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/form-element/custom-webpack.config.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/text-field-element/custom-webpack.config.js" afterDir="false" />
++    <list default="true" id="ab4a916f-c66e-494a-a3f4-7430c54b0494" name="Default Changelist" comment="Don't recreate a custom element when it is used multiple times in a page">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/form-element/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/form-element/angular.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/form-element/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/form-element/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/form-element/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/form-element/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/text-field-element/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/text-field-element/angular.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/text-field-element/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/text-field-element/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/text-field-element/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/text-field-element/package.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/form-element/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/form-element/src/app/app.module.ts" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/nested-elements/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nested-elements/src/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/text-field-element/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/text-field-element/src/app/app.module.ts" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/parent/target/" />
+     <ignored path="$PROJECT_DIR$/parent/main-component/target/" />
+@@ -28,14 +23,32 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="225">
++              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
++            </state>
++          </provider>
++        </entry>
++      </file>
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/text-field-element/src/app/app.module.ts">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="195">
+-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
++            <state relative-caret-position="405">
++              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+               <folding>
+                 <element signature="e#0#56#0" expanded="true" />
+               </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/form-element/src/index.html">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="15">
++              <caret line="1" selection-start-line="1" selection-end-line="1" />
+             </state>
+           </provider>
+         </entry>
+@@ -85,11 +98,23 @@
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/form-element/package.json">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="225">
+-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
++            <state relative-caret-position="90">
++              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/form-element/src/app/app.module.ts">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="345">
++              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
++              <folding>
++                <element signature="e#0#56#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+@@ -140,22 +165,22 @@
+         <option value="$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.ts" />
+         <option value="$PROJECT_DIR$/form-element/src/app/form-element/form-element.component.html" />
+         <option value="$PROJECT_DIR$/form-element/src/app/form/form-element.component.ts" />
+-        <option value="$PROJECT_DIR$/form-element/src/app/app.module.ts" />
+         <option value="$PROJECT_DIR$/form-element/build-element.js" />
+         <option value="$PROJECT_DIR$/nested-elements/.gitignore" />
+-        <option value="$PROJECT_DIR$/text-field-element/src/app/app.module.ts" />
+         <option value="$PROJECT_DIR$/text-field-element/src/app/text-field/text-field-element.component.html" />
+         <option value="$PROJECT_DIR$/text-field-element/build-element.js" />
+         <option value="$PROJECT_DIR$/text-field-element/karma.conf.js" />
+         <option value="$PROJECT_DIR$/text-field-element/package-lock.json" />
+         <option value="$PROJECT_DIR$/text-field-element/e2e/src/app.e2e-spec.ts" />
+-        <option value="$PROJECT_DIR$/nested-elements/src/index.html" />
+         <option value="$PROJECT_DIR$/form-element/custom-webpack.config.js" />
+         <option value="$PROJECT_DIR$/form-element/angular.json" />
+         <option value="$PROJECT_DIR$/text-field-element/angular.json" />
+         <option value="$PROJECT_DIR$/text-field-element/custom-webpack.config.js" />
+         <option value="$PROJECT_DIR$/text-field-element/package.json" />
+         <option value="$PROJECT_DIR$/form-element/package.json" />
++        <option value="$PROJECT_DIR$/form-element/src/app/app.module.ts" />
++        <option value="$PROJECT_DIR$/text-field-element/src/app/app.module.ts" />
++        <option value="$PROJECT_DIR$/nested-elements/src/index.html" />
+       </list>
+     </option>
+   </component>
+@@ -213,7 +238,7 @@
+   <component name="PropertiesComponent">
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576441997796" />
++    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576442280942" />
+     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/text-field-element" />
+     <property name="node.js.detected.package.tslint" value="true" />
+@@ -306,7 +331,7 @@
+       <workItem from="1576407591610" duration="11268000" />
+       <workItem from="1576437451770" duration="185000" />
+       <workItem from="1576439586376" duration="1086000" />
+-      <workItem from="1576440703859" duration="1270000" />
++      <workItem from="1576440703859" duration="1575000" />
+     </task>
+     <task id="LOCAL-00001" summary="Created 2 custom angularElements">
+       <created>1576436428338</created>
+@@ -329,11 +354,18 @@
+       <option name="project" value="LOCAL" />
+       <updated>1576440669721</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Set up custom webpack for angular elements, so we can use multiple elements in a single page">
++      <created>1576442056930</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1576442056930</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="14748000" />
++    <option name="totallyTimeSpent" value="15053000" />
+   </component>
+   <component name="TodoView">
+     <todo-panel id="selected-file">
+@@ -399,10 +431,10 @@
+     <MESSAGE value="Created 2 custom angularElements" />
+     <MESSAGE value="Rename parent folder to nested-elements" />
+     <MESSAGE value="Added text-field-element" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added text-field-element" />
++    <MESSAGE value="Set up custom webpack for angular elements, so we can use multiple elements in a single page" />
++    <option name="LAST_COMMIT_MESSAGE" value="Set up custom webpack for angular elements, so we can use multiple elements in a single page" />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/pom.xml" />
+     <entry file="file://$PROJECT_DIR$/nested-elements/form-element/pom.xml" />
+     <entry file="file://$PROJECT_DIR$/nested-elements/form-element/form-element-app/node_modules/@angular/core/core.d.ts" />
+     <entry file="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app/src/app/text-field-element/text-field-element.component.html" />
+@@ -438,16 +470,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state>
+           <caret column="15" selection-start-column="15" selection-end-column="15" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/form-element/src/app/app.module.ts">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="285">
+-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+-          <folding>
+-            <element signature="e#0#56#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -489,13 +511,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="150">
+-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/text-field-element/src/app/text-field/text-field-element.component.ts">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="75">
+@@ -531,16 +546,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="270">
+           <caret line="18" selection-start-line="18" selection-end-line="18" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/text-field-element/src/app/app.module.ts">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="195">
+-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+-          <folding>
+-            <element signature="e#0#56#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -602,8 +607,42 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/form-element/package.json">
+       <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="90">
++          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/form-element/src/app/app.module.ts">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="345">
++          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
++          <folding>
++            <element signature="e#0#56#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/text-field-element/src/app/app.module.ts">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="405">
++          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
++          <folding>
++            <element signature="e#0#56#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/form-element/src/index.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="15">
++          <caret line="1" selection-start-line="1" selection-end-line="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/nested-elements/src/index.html">
++      <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="225">
+-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
++          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+         </state>
+       </provider>
+     </entry>
+Index: form-element/src/app/app.module.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import {BrowserModule} from '@angular/platform-browser';\nimport {CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule} from '@angular/core';\n\nimport {FormElementComponent} from './form/form-element.component';\nimport {createCustomElement} from '@angular/elements';\n\n@NgModule({\n  declarations: [\n    FormElementComponent\n  ],\n  entryComponents: [\n    FormElementComponent\n  ],\n  imports: [\n    BrowserModule\n  ],\n  providers: [],\n  schemas: [CUSTOM_ELEMENTS_SCHEMA]\n})\nexport class AppModule {\n\n  constructor(injector: Injector) {\n    const custom = createCustomElement(FormElementComponent, {injector});\n    customElements.define('ne-form', custom);\n  }\n\n  ngDoBootstrap() {\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- form-element/src/app/app.module.ts	(revision 9efad6e6f6d4f6ee92ae03853250699570e98c34)
++++ form-element/src/app/app.module.ts	(date 1576442154000)
+@@ -20,8 +20,10 @@
+ export class AppModule {
+ 
+   constructor(injector: Injector) {
+-    const custom = createCustomElement(FormElementComponent, {injector});
+-    customElements.define('ne-form', custom);
++    if (!customElements.get('ne-form')) {
++      const element = createCustomElement(FormElementComponent, {injector});
++      customElements.define('ne-form', element);
++    }
+   }
+ 
+   ngDoBootstrap() {
+Index: text-field-element/src/app/app.module.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import {BrowserModule} from '@angular/platform-browser';\nimport {CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule} from '@angular/core';\n\nimport {TextFieldElementComponent} from './text-field/text-field-element.component';\nimport {createCustomElement} from '@angular/elements';\n\n@NgModule({\n  declarations: [\n    TextFieldElementComponent\n  ],\n  entryComponents: [\n    TextFieldElementComponent\n  ],\n  imports: [\n    BrowserModule\n  ],\n  providers: [],\n  schemas: [CUSTOM_ELEMENTS_SCHEMA]\n})\nexport class AppModule {\n\n  constructor(injector: Injector) {\n    const custom = createCustomElement(TextFieldElementComponent, {injector});\n    customElements.define('ne-text-field', custom);\n  }\n\n  ngDoBootstrap() {\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- text-field-element/src/app/app.module.ts	(revision 9efad6e6f6d4f6ee92ae03853250699570e98c34)
++++ text-field-element/src/app/app.module.ts	(date 1576442154000)
+@@ -20,8 +20,10 @@
+ export class AppModule {
+ 
+   constructor(injector: Injector) {
+-    const custom = createCustomElement(TextFieldElementComponent, {injector});
+-    customElements.define('ne-text-field', custom);
++    if (!customElements.get('ne-text-field')) {
++      const custom = createCustomElement(TextFieldElementComponent, {injector});
++      customElements.define('ne-text-field', custom);
++    }
+   }
+ 
+   ngDoBootstrap() {

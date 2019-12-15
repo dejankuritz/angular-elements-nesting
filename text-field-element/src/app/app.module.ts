@@ -20,8 +20,10 @@ import {createCustomElement} from '@angular/elements';
 export class AppModule {
 
   constructor(injector: Injector) {
-    const custom = createCustomElement(TextFieldElementComponent, {injector});
-    customElements.define('ne-text-field', custom);
+    if (!customElements.get('ne-text-field')) {
+      const custom = createCustomElement(TextFieldElementComponent, {injector});
+      customElements.define('ne-text-field', custom);
+    }
   }
 
   ngDoBootstrap() {
