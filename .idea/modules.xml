@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/form-element/form-element.iml" filepath="$PROJECT_DIR$/form-element/form-element.iml" />
-      <module fileurl="file://$PROJECT_DIR$/main-application-component/main-application-component.iml" filepath="$PROJECT_DIR$/main-application-component/main-application-component.iml" />
       <module fileurl="file://$PROJECT_DIR$/nested-elements/nested-elements.iml" filepath="$PROJECT_DIR$/nested-elements/nested-elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/main-application-component/text-field-component.iml" filepath="$PROJECT_DIR$/main-application-component/text-field-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text-field-element/text-field-element.iml" filepath="$PROJECT_DIR$/text-field-element/text-field-element.iml" />
     </modules>
   </component>
 </project>
