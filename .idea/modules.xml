@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/parent/form-element/form-element.iml" filepath="$PROJECT_DIR$/parent/form-element/form-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nested-elements/form-element/form-element.iml" filepath="$PROJECT_DIR$/nested-elements/form-element/form-element.iml" />
       <module fileurl="file://$PROJECT_DIR$/main-application-component/main-application-component.iml" filepath="$PROJECT_DIR$/main-application-component/main-application-component.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nested-elements/nested-elements.iml" filepath="$PROJECT_DIR$/nested-elements/nested-elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/main-application-component/text-field-component.iml" filepath="$PROJECT_DIR$/main-application-component/text-field-component.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parent/text-field-element/text-field-element.iml" filepath="$PROJECT_DIR$/parent/text-field-element/text-field-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nested-elements/text-field-element/text-field-element.iml" filepath="$PROJECT_DIR$/nested-elements/text-field-element/text-field-element.iml" />
     </modules>
   </component>
 </project>

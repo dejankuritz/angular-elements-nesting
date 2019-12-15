@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/main-application-component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nested-elements/form-element/form-element-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nested-elements/text-field-element/text-field-element-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/parent/form-element/form-element-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/parent/main-component/form-element-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/parent/main-component/main-component-app" vcs="Git" />
