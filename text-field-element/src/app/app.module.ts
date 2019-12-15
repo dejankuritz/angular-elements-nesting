@@ -1,5 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule} from '@angular/core';
+import {APP_ID, CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule} from '@angular/core';
 
 import {TextFieldElementComponent} from './text-field/text-field-element.component';
 import {createCustomElement} from '@angular/elements';
@@ -14,7 +14,9 @@ import {createCustomElement} from '@angular/elements';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    {provide: APP_ID, useValue: 'ne-text-field-element'}
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule {
