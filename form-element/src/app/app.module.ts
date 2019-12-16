@@ -4,6 +4,8 @@ import {APP_ID, CUSTOM_ELEMENTS_SCHEMA, Injector, NgModule} from '@angular/core'
 import {FormElementComponent} from './form/form-element.component';
 import {createCustomElement} from '@angular/elements';
 
+import '../assets/js/ne-legacy-text-field-element.js';
+
 @NgModule({
   declarations: [
     FormElementComponent
